@@ -1,0 +1,8 @@
+!pip install pydot
+!pip install -e .
+!git clone https://github.com/SciTools/cartopy.git
+# Uncomment the following to specify non-standard include and library paths
+# python setup.py build_ext -I/path/tt4!python setup.py 
+!pip install cartopy 
+!pip install git+https://github.com/SciTools/cartopy.git
+!pip install cartopy
